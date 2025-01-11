@@ -14,6 +14,16 @@ public class Main {
         post.birthday.day = 13;        // поля даты рождения
         post.birthday.month = 01;
         post.birthday.year = 2005;
+
+        System.out.println("Имя:" + post.name);
+        System.out.println("Фамилия:" + post.patronymic);
+        System.out.println("Отчество:" + post.surname);
+        System.out.println("Дата рождения:" + post.birthday.day + "." + post.birthday.month + "." + post.birthday.year + "г.");
+        System.out.println("Паспорт:" + post.passport);
+        System.out.println("Телефон:" + post.phone);
+        System.out.println("Согласен на подписку:" + post.subscription);
+
+
     }
 
 }
